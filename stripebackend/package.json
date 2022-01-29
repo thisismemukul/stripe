@@ -1,0 +1,25 @@
+{
+    "name": "stripebackend",
+    "version": "1.0.0",
+    "description": "Online payment processing for internet businesses using Stripe",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [
+        "Stripe",
+        "onlinepayment",
+        "payment",
+        "gateways"
+    ],
+    "author": "Mukul Saini",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^14.3.2",
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15",
+        "stripe": "^8.201.0",
+        "uuid": "^8.3.2"
+    }
+}
